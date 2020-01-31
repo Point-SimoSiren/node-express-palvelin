@@ -1,12 +1,15 @@
 Tarjoaa clientille HTML, CSS ja JS tiedostot valmiiden viitausten kanssa
 hyödyntäen modernia ja minimalistista Express.JS kirjastoa http-server kirjaston sijaan.
+Tämä on toimiva server, ei tarvitse koodata muuta kuin public kansion sisälle HTML, CSS ja JS tiedostoihin
+mitä haluaa ohjelman tekevän (Sopii vaihtoehtoon A suoraan)
 
 Lataa itsellesi ja kirjoita komentokehote  "npm install" projektin juurikansiossa.
 Sitten samassa paikassa "node index.js" niin palvelin käynnsityy localhost:3000.
 
 ---
+ITSE KÄSIN TEHDEN:
+Jos teet itse käsin alusta assti asennuskomennot, etkä hyödynnä oheisia package-json ja package-lock-json määritystiedostoja, jotka mahdollistaa
+em. suoran npm install -komennon riippuvuuksien asennukseen, niin poista nuo ko. package tiedostot molemmat.
 
-Jos teet itse käsin, etkä hyödynnä oheisia package-json ja package-lock-json määritystiedostoja, jotka mahdollistaa
-em. suoran npm install -komennon riippuvuuksien asennukseen,
-niin tee "npm init" normaalisti ja "npm install express.js". - ja pääset samaan lopputulokseen.
+Sitten tee "npm init" normaalisti ja "npm install express.js". - ja pääset samaan lopputulokseen.
 Lopuksi "node index.js" käynnistää palvelimen.
